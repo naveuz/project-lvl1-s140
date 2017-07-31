@@ -7,6 +7,9 @@
             "email": "az.gost@gmail.com"
         }
     ],
+    "bin": [
+      "bin/brain-games"
+    ],
     "require": {},
     "require-dev": {}
 }
