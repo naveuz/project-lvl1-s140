@@ -1,0 +1,12 @@
+{
+    "name": "naveuz/brain-games",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alexander Zuev",
+            "email": "az.gost@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {}
+}
