@@ -4,10 +4,10 @@ namespace BrainGames\Calc;
 
 use function BrainGames\Cli\run;
 
+const GREETING = "What is the result of the expression?";
+
 function game()
 {
-    $greeting = "What is the result of the expression?";
-
     $operators = ['+', '-', '*'];
     $getRandomOperator = function () use ($operators) {
         return $operators[rand(0, count($operators) - 1)];
@@ -41,5 +41,5 @@ function game()
         }
     };
 
-    run($greeting, $getQuestion, $getAnswer);
+    run(GREETING, $getQuestion, $getAnswer);
 }
